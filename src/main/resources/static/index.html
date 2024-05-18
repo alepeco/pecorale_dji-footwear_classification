@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Footwear Classification</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" async></script>
+</head>
+
+<body>
+    <div class="container mt-5">
+        <div class="card">
+            <div class="card-body text-center">
+                <h1 class="card-title">Footwear Classification</h1>
+                <p class="card-text">DeepJavaLibrary (DJL) Image CLassification by Pecorale</p>
+
+                <form class="mt-4">
+                    <div class="form-group">
+                        <label for="exampleFormControlFile1">Please upload an image (jpeg, png)</label>
+                        <input type="file" accept="image/png, image/jpeg" class="form-control-file mx-auto d-block" id="image" name="image"
+                            onchange="checkFiles(this.files);">
+                    </div>
+                </form>
+
+                <div id="answerPart" class="mt-4" style="visibility: hidden;">
+                    <p><b>Answer:</b></p>
+                    <div id="answer" class="alert alert-info"></div>
+
+                    <div id="previewPart" class="mt-4">
+                        <p><b>Analyzed Image:</b></p>
+                        <img id="preview" class="img-thumbnail" width="300" src="#" alt="preview" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

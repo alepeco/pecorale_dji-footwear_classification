@@ -1,0 +1,32 @@
+body {
+    background-color: #f8f9fa;
+}
+
+.card {
+    max-width: 600px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-title {
+    font-size: 2rem;
+    margin-bottom: 0;
+}
+
+.card-text {
+    font-size: 1.2rem;
+    color: #6c757d;
+}
+
+.form-group {
+    text-align: center;
+}
+
+.form-control-file {
+    display: inline-block;
+}
+
+.img-thumbnail {
+    display: block;
+    margin: auto;
+}
