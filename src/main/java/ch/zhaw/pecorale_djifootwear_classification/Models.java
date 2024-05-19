@@ -34,7 +34,7 @@ public final class Models {
     public static final int IMAGE_WIDTH = 100;
 
     // the name of the model
-    public static final String MODEL_NAME = "shoeclassifier";
+    public static final String MODEL_NAME = "graphicclassifier";
 
     private Models() {}
 
